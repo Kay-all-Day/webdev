@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+}
+div{
+    display: flex;
+    background-color: aquamarine;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    max-width: 90px;
+    min-width: 80px;
+    justify-content: center;
+    
+}
+section#display{
+    background-color: aquamarine;
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin: 5px;
+    min-width: 400px;
+}
+section#keypad{
+    background-color: grey;
+    border: 2px solid ;
+    border-radius: 5px;
+    margin: 5px;
+    min-width: 400px;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    /* gap: 4px 4px; */
+}
+section{
+    background-color: grey;
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin: 5px;
+
+}
